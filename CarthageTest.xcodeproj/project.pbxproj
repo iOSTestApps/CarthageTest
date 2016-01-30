@@ -14,6 +14,8 @@
 		6E21AD791C5BDB6700CA8983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E21AD771C5BDB6700CA8983 /* LaunchScreen.storyboard */; };
 		6E9346931C5BDD910029B459 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E9346911C5BDD910029B459 /* ReactiveCocoa.framework */; };
 		6E9346941C5BDD910029B459 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E9346921C5BDD910029B459 /* Result.framework */; };
+		6EB0ADE01C5D015000619B6F /* UIReactiveExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB0ADDF1C5D015000619B6F /* UIReactiveExtensions.swift */; };
+		6EB0ADE21C5D023800619B6F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB0ADE11C5D023800619B6F /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		6E21AD7A1C5BDB6700CA8983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E9346911C5BDD910029B459 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
 		6E9346921C5BDD910029B459 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		6EB0ADDF1C5D015000619B6F /* UIReactiveExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIReactiveExtensions.swift; sourceTree = "<group>"; };
+		6EB0ADE11C5D023800619B6F /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				6E21AD751C5BDB6700CA8983 /* Assets.xcassets */,
 				6E21AD771C5BDB6700CA8983 /* LaunchScreen.storyboard */,
 				6E21AD7A1C5BDB6700CA8983 /* Info.plist */,
+				6EB0ADDF1C5D015000619B6F /* UIReactiveExtensions.swift */,
+				6EB0ADE11C5D023800619B6F /* ViewModel.swift */,
 			);
 			path = CarthageTest;
 			sourceTree = "<group>";
@@ -164,6 +170,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E21AD711C5BDB6700CA8983 /* ViewController.swift in Sources */,
+				6EB0ADE01C5D015000619B6F /* UIReactiveExtensions.swift in Sources */,
+				6EB0ADE21C5D023800619B6F /* ViewModel.swift in Sources */,
 				6E21AD6F1C5BDB6700CA8983 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
