@@ -10,5 +10,5 @@ import Foundation
 import ReactiveCocoa
 
 public class SimpleModel {
-	public var text = MutableProperty<String>("")
+
 }
